@@ -6,6 +6,7 @@ TagManager:
   tags:
   - erasableObject
   - cleaner
+  - pushable
   layers:
   - Default
   - TransparentFX
@@ -13,8 +14,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Cleaner
+  - Pushable
   - 
   - 
   - 

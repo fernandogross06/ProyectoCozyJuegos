@@ -3,14 +3,14 @@ using UnityEngine;
 [RequireComponent(typeof(SpriteRenderer))]
 public class CleanerSetup : MonoBehaviour
 {
-    [SerializeField] private Sprite cleanerSprite; // Asignable desde el Inspector
+    [SerializeField] private Sprite sprite; // Asignable desde el Inspector
 
     private void Start()
     {
         SpriteRenderer sr = GetComponent<SpriteRenderer>();
-        if (sr != null && cleanerSprite != null)
+        if (sr != null && sprite != null)
         {
-            sr.sprite = cleanerSprite;
+            sr.sprite = sprite;
         }
     }
 }
