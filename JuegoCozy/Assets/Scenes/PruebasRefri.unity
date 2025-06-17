@@ -491,6 +491,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HangingObject
       objectReference: {fileID: 0}
+    - target: {fileID: 2658537258425699087, guid: fe7fa2b08de1ec84ca972ad9abd05b52, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9107379166783313793, guid: fe7fa2b08de1ec84ca972ad9abd05b52, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.55072
