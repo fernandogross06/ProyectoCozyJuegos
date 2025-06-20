@@ -7,7 +7,7 @@ public class SelectableObject : MonoBehaviour
     public Rigidbody2D rb;
     public float jumpForce;
     public bool isSelected;
-
+    public int minigameIndex;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,7 +22,7 @@ public class SelectableObject : MonoBehaviour
         {
             if(Input.GetKeyDown(KeyCode.Mouse0)){
                 rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-                GameStateManager.Instance.StartMinigame(0);
+                GameStateManager.Instance.StartMinigame(minigameIndex);
             }
 
         }

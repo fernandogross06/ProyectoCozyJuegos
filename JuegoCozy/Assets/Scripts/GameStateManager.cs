@@ -50,7 +50,6 @@ public class GameStateManager : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Escape))
         {
-
             StopMinigame();
         }
     }
