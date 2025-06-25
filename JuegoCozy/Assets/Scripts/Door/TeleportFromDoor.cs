@@ -11,15 +11,21 @@ public class TeleportFromDoor : MonoBehaviour
     public bool playerTeleportedHere;
     public TeleportFromDoor destinationDoor;
     public int currentFloor;
+
+
+    public GameObject indicador;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         playerInside = false;
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        indicador.SetActive(playerInside);
+
         if (playerInside && (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W)))
         {
             // Do something when up key is pressed while in trigger
@@ -48,6 +54,7 @@ public class TeleportFromDoor : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             playerInside = true;
+
            // if (!playerInside && !playerTeleportedHere) {
            //     destinationDoor.playerTeleportedHere = true;
            //     destinationDoor.playerInside = true;

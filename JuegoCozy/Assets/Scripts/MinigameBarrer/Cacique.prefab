@@ -209,6 +209,10 @@ PrefabInstance:
       propertyPath: sprite
       value: 
       objectReference: {fileID: 6611063975212234208, guid: 1f3e352a88d239742827fe40709225d1, type: 3}
+    - target: {fileID: 8516157968478337684, guid: b657c1d0376f5e347bf043d67c140ebe, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -324,6 +328,10 @@ PrefabInstance:
       propertyPath: sprite
       value: 
       objectReference: {fileID: 6611063975212234208, guid: 1f3e352a88d239742827fe40709225d1, type: 3}
+    - target: {fileID: 8516157968478337684, guid: b657c1d0376f5e347bf043d67c140ebe, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -439,6 +447,10 @@ PrefabInstance:
       propertyPath: sprite
       value: 
       objectReference: {fileID: 6611063975212234208, guid: 1f3e352a88d239742827fe40709225d1, type: 3}
+    - target: {fileID: 8516157968478337684, guid: b657c1d0376f5e347bf043d67c140ebe, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -554,6 +566,10 @@ PrefabInstance:
       propertyPath: sprite
       value: 
       objectReference: {fileID: 6611063975212234208, guid: 1f3e352a88d239742827fe40709225d1, type: 3}
+    - target: {fileID: 8516157968478337684, guid: b657c1d0376f5e347bf043d67c140ebe, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -669,6 +685,10 @@ PrefabInstance:
       propertyPath: sprite
       value: 
       objectReference: {fileID: 6611063975212234208, guid: 1f3e352a88d239742827fe40709225d1, type: 3}
+    - target: {fileID: 8516157968478337684, guid: b657c1d0376f5e347bf043d67c140ebe, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -784,6 +804,10 @@ PrefabInstance:
       propertyPath: sprite
       value: 
       objectReference: {fileID: 6611063975212234208, guid: 1f3e352a88d239742827fe40709225d1, type: 3}
+    - target: {fileID: 8516157968478337684, guid: b657c1d0376f5e347bf043d67c140ebe, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -899,6 +923,10 @@ PrefabInstance:
       propertyPath: sprite
       value: 
       objectReference: {fileID: 6611063975212234208, guid: 1f3e352a88d239742827fe40709225d1, type: 3}
+    - target: {fileID: 8516157968478337684, guid: b657c1d0376f5e347bf043d67c140ebe, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1014,6 +1042,10 @@ PrefabInstance:
       propertyPath: sprite
       value: 
       objectReference: {fileID: 6611063975212234208, guid: 1f3e352a88d239742827fe40709225d1, type: 3}
+    - target: {fileID: 8516157968478337684, guid: b657c1d0376f5e347bf043d67c140ebe, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1129,6 +1161,10 @@ PrefabInstance:
       propertyPath: sprite
       value: 
       objectReference: {fileID: 6611063975212234208, guid: 1f3e352a88d239742827fe40709225d1, type: 3}
+    - target: {fileID: 8516157968478337684, guid: b657c1d0376f5e347bf043d67c140ebe, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -13,9 +13,11 @@ public class RotatePan : MonoBehaviour
     private float oldRotationZ;
     private float totalRotation = 0f; // Total accumulated rotation
 
+    public float scoreToBeat;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        scoreToBeat = 5000;
         myCam = Camera.main;
         col = GetComponent<Collider2D>();
         oldRotationZ = transform.rotation.eulerAngles.z;
@@ -107,7 +109,7 @@ public class RotatePan : MonoBehaviour
 
     bool CheckVictoryCondition()
     {
-        return totalRotation > 10000;
+        return totalRotation > scoreToBeat;
     }
 
 }

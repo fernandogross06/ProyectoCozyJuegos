@@ -89,8 +89,8 @@ public class GameStateManager : MonoBehaviour
         }
         if(Input.GetKeyDown(KeyCode.Escape))
         {
-            //StopMinigame();
-            WinMinigame();
+            StopMinigame();
+            //WinMinigame();
         }
 
 
@@ -98,9 +98,10 @@ public class GameStateManager : MonoBehaviour
 
     public void StartMinigame(int index)
     {
-        if(!minigameInProgress) {
+        minigameIndex = index;
+        if (!minigameInProgress && !games[minigameIndex].isCompleted) {
             minigameInProgress = true;
-            minigameIndex = index;
+            
             Debug.Log(games[minigameIndex].gameName);
             backgroundSet.SetActive(true);
 

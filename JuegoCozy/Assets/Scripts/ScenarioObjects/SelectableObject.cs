@@ -9,11 +9,16 @@ public class SelectableObject : MonoBehaviour
     public float jumpForce;
     public bool isSelected;
     public int minigameIndex;
+    public int floor;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         Selected(false);
+
+        if(outline != null){
+            outline.SetActive(false);
+        }
     }
 
     // Update is called once per frame
@@ -35,7 +40,10 @@ public class SelectableObject : MonoBehaviour
         //If your mouse hovers over the GameObject with the script attached, output this message
         //Debug.Log("Mouse is over GameObject.");
         //outline.SetActive(true);
-        Selected(true);
+        if (GameStateManager.Instance.currentFloor == floor)
+        {
+            Selected(true);
+        }
     }
 
     void OnMouseExit()
