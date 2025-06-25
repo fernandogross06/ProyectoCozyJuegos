@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -14,6 +15,10 @@ public class GameStateManager : MonoBehaviour
 
         [SerializeField] public GameObject game;
 
+        [SerializeField] public bool isCompleted;
+
+        [SerializeField] public TextMeshProUGUI gameText;
+
     }
 
     [SerializeField] public Minigame[] games;
@@ -21,6 +26,8 @@ public class GameStateManager : MonoBehaviour
     public int minigameIndex;
     public GameObject backgroundSet;
     GameObject currentMinigameObject;
+    [SerializeField] AudioClip completionSound;
+    [SerializeField] AudioSource audioSource;
     // Set the Singleton instance
     // Every object that wants to interact with this class will do through the singleton instance
     private static GameStateManager _instance;
@@ -50,7 +57,8 @@ public class GameStateManager : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Escape))
         {
-            StopMinigame();
+            //StopMinigame();
+            WinMinigame();
         }
     }
 
@@ -67,6 +75,17 @@ public class GameStateManager : MonoBehaviour
 
     }
 
+
+    public void WinMinigame()
+    {
+        StopMinigame();
+
+
+        // Esto es de debug por ahora
+        games[minigameIndex].isCompleted = true;
+        games[minigameIndex].gameText.color = new Color32(18, 255, 0, 255); // Poner verde de completado
+        audioSource.PlayOneShot(completionSound);
+    }
     public void StopMinigame()
     {
         Debug.Log(games[minigameIndex].gameName);
@@ -74,6 +93,5 @@ public class GameStateManager : MonoBehaviour
         Destroy(currentMinigameObject);
         backgroundSet.SetActive(false);
         minigameInProgress = false;
-
     }
 }
