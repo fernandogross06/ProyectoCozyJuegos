@@ -999,7 +999,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Nombre del Juego
+  m_text: Chore Time
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ac79b009fc9824a45a5e8e0d6997a78a, type: 2}
   m_sharedMaterial: {fileID: -8069898752568033381, guid: ac79b009fc9824a45a5e8e0d6997a78a, type: 2}
