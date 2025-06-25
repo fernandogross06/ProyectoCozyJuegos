@@ -2,22 +2,19 @@ using UnityEngine;
 
 public class PushableObject : MonoBehaviour
 {
-    [SerializeField] private float horizontalMargin = 0.05f;
-    [SerializeField] private float verticalMargin = 0.1f;
-
-    private Camera cam;
-
-    void Start()
-    {
-        cam = Camera.main;
-    }
+    [SerializeField] private SpriteRenderer boundaryRenderer; // SpriteRenderer que define los límites
 
     void Update()
     {
-        Vector3 viewportPos = cam.WorldToViewportPoint(transform.position);
+        if (boundaryRenderer == null)
+            return;
 
-        if (viewportPos.x < -horizontalMargin || viewportPos.x > 1 + horizontalMargin ||
-            viewportPos.y < -verticalMargin || viewportPos.y > 1 + verticalMargin)
+        Bounds bounds = boundaryRenderer.bounds;
+        Vector3 pos = transform.position;
+
+        // Verifica si el objeto está fuera del área visible del SpriteRenderer
+        if (pos.x < bounds.min.x || pos.x > bounds.max.x ||
+            pos.y < bounds.min.y || pos.y > bounds.max.y)
         {
             Destroy(gameObject);
         }
