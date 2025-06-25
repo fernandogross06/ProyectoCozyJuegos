@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 9047976834402116057}
   - component: {fileID: 550042912531231161}
   m_Layer: 0
-  m_Name: CleaningMinigame
+  m_Name: CleaningMinigame 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

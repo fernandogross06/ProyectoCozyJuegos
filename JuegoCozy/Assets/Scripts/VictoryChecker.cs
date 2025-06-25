@@ -17,8 +17,8 @@ public class VictoryChecker : MonoBehaviour
         // Verifica si todos han sido destruidos
         if (targets.Count == 0)
         {
-            Debug.Log("¡Victoria!");
-            victoryPrinted = true;
+            GameStateManager.Instance.WinMinigame();
+            
         }
     }
 }
