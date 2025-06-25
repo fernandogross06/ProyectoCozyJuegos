@@ -4,13 +4,17 @@ using UnityEngine;
 public class ErasableSetup : MonoBehaviour
 {
     [SerializeField] private Sprite initialSprite; // Asignable desde el Inspector
+    [SerializeField] private Color initialColor = Color.white; // Color asignable
 
     private void Start()
     {
         SpriteRenderer sr = GetComponent<SpriteRenderer>();
-        if (sr != null && initialSprite != null)
+        if (sr != null)
         {
-            sr.sprite = initialSprite;
+            if (initialSprite != null)
+                sr.sprite = initialSprite;
+
+            sr.color = initialColor;
         }
     }
 }
