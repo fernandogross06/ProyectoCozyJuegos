@@ -25,6 +25,11 @@ public class RotatePan : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (CheckVictoryCondition())
+        {
+            GameStateManager.Instance.WinMinigame();
+
+        }
         // coordenada en la simulación del mouse calculado desde la pantalla, se calcula para verificar las colisiones
         // con el objeto
         Vector3 mousePos = myCam.ScreenToWorldPoint(Input.mousePosition);
@@ -100,6 +105,9 @@ public class RotatePan : MonoBehaviour
     }
 
 
-
+    bool CheckVictoryCondition()
+    {
+        return totalRotation > 10000;
+    }
 
 }

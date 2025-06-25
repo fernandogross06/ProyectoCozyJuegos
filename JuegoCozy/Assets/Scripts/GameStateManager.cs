@@ -33,7 +33,9 @@ public class GameStateManager : MonoBehaviour
     private static GameStateManager _instance;
 
     public static GameStateManager Instance { get { return _instance; } }
+    public bool AlreadyCompletedGames;
 
+    public int currentFloor;
     private void Awake()
     {
         if (_instance != null && _instance != this)
@@ -50,16 +52,27 @@ public class GameStateManager : MonoBehaviour
     {
         minigameInProgress = false;
         minigameIndex = 0;
+        AlreadyCompletedGames = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (CheckCompletion() )
+        {
+            if (!AlreadyCompletedGames) { 
+                // TIRAR MENSAJE DE VICTORIA
+                Debug.Log("Ya ganó amigo.");
+            }
+
+        }
         if(Input.GetKeyDown(KeyCode.Escape))
         {
             //StopMinigame();
             WinMinigame();
         }
+
+
     }
 
     public void StartMinigame(int index)
@@ -93,5 +106,22 @@ public class GameStateManager : MonoBehaviour
         Destroy(currentMinigameObject);
         backgroundSet.SetActive(false);
         minigameInProgress = false;
+    }
+
+    public bool CheckCompletion()
+    {
+        bool allCompleted = true;
+
+        for(int i = 0; i < games.Length; i++)
+        {
+            if (!games[i].isCompleted) {
+                allCompleted = false;
+                break;
+            }
+
+        }
+
+        return allCompleted;
+
     }
 }

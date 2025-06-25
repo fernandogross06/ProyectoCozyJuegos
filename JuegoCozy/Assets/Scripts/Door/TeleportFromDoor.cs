@@ -6,7 +6,7 @@ public class TeleportFromDoor : MonoBehaviour
     public bool playerInside;
     public bool playerTeleportedHere;
     public TeleportFromDoor destinationDoor;
-    public Transform destinationTransform;
+    public int currentFloor;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,6 +22,7 @@ public class TeleportFromDoor : MonoBehaviour
             //destinationDoor.playerTeleportedHere = true;
             //destinationDoor.playerInside = true;
             player.transform.position = destinationDoor.transform.position;
+            GameStateManager.Instance.currentFloor = destinationDoor.currentFloor;
         }
     }
 

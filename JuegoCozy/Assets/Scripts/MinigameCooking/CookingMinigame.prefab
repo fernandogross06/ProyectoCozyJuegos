@@ -44,7 +44,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2671843606259516631}
   - component: {fileID: 1248116741007546971}
-  - component: {fileID: 3330073711905832072}
   - component: {fileID: 4813532074424657963}
   m_Layer: 0
   m_Name: Deadzone
@@ -113,7 +112,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 19
   m_Sprite: {fileID: -2413806693520163455, guid: 2f8bf7451ccb3a84fa91ed65518a89fb, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -123,19 +122,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3330073711905832072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2635863378820948169}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb9b9cfc3ea72e344a31db7a44053c88, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  deadZoneCollider: {fileID: 0}
 --- !u!58 &4813532074424657963
 CircleCollider2D:
   m_ObjectHideFlags: 0
