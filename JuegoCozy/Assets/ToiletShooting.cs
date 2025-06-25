@@ -21,9 +21,10 @@ public class ToiletShooting : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            
+
             // El mouse está dentro del Collision2D del objeto
-            if (col == Physics2D.OverlapPoint(mousePos))
+            int layerMask = ~LayerMask.GetMask("Germs");
+            if (col == Physics2D.OverlapPoint(mousePos, layerMask))
             {
                 mousePos = new Vector3 (mousePos.x, mousePos.y, 0);   
                 Instantiate(projectile, mousePos, Quaternion.identity); // Using object, vector3, rotation  

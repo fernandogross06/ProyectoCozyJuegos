@@ -2,6 +2,10 @@ using UnityEngine;
 
 public class TeleportFromDoor : MonoBehaviour
 {
+    public Camera Camera;
+    public Transform baseCameraPosition;
+    public Transform toiletCameraPosition;
+
     public GameObject player;
     public bool playerInside;
     public bool playerTeleportedHere;
@@ -21,8 +25,21 @@ public class TeleportFromDoor : MonoBehaviour
             // Do something when up key is pressed while in trigger
             //destinationDoor.playerTeleportedHere = true;
             //destinationDoor.playerInside = true;
-            player.transform.position = destinationDoor.transform.position;
+
             GameStateManager.Instance.currentFloor = destinationDoor.currentFloor;
+
+            if (GameStateManager.Instance.currentFloor == 2)
+            {
+                Camera.transform.position = toiletCameraPosition.position;
+            }
+            else
+            {
+                Camera.transform.position = baseCameraPosition.position;
+            }
+
+            player.transform.position = destinationDoor.transform.position;
+
+            
         }
     }
 

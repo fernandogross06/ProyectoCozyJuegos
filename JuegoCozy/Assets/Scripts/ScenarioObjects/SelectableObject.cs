@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class SelectableObject : MonoBehaviour
 {
+    public Camera Camera;
     public GameObject outline;
     public Rigidbody2D rb;
     public float jumpForce;
@@ -21,7 +22,7 @@ public class SelectableObject : MonoBehaviour
         if(isSelected)
         {
             if(Input.GetKeyDown(KeyCode.Mouse0)){
-                rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+                //rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
                 GameStateManager.Instance.StartMinigame(minigameIndex);
             }
 
@@ -47,7 +48,7 @@ public class SelectableObject : MonoBehaviour
 
     void Selected(bool state)
     {
-        outline.SetActive(state);
+        if(outline!= null) outline.SetActive(state);
         isSelected = state;
     }
 }
