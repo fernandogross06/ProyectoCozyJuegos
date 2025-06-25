@@ -118,7 +118,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -185,9 +185,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 223
-        width: 22
-        height: 33
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,9 +207,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 223
-        width: 22
-        height: 33
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,9 +229,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 223
-        width: 27
-        height: 33
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -251,9 +251,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 223
-        width: 27
-        height: 33
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,10 +272,10 @@ TextureImporter:
       name: House-kitchen-Sheet2_4
       rect:
         serializedVersion: 2
-        x: 4
+        x: 0
         y: 192
-        width: 24
-        height: 24
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,10 +294,10 @@ TextureImporter:
       name: House-kitchen-Sheet2_5
       rect:
         serializedVersion: 2
-        x: 35
+        x: 32
         y: 192
-        width: 25
-        height: 24
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,10 +316,10 @@ TextureImporter:
       name: House-kitchen-Sheet2_6
       rect:
         serializedVersion: 2
-        x: 68
+        x: 64
         y: 192
-        width: 24
-        height: 24
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,10 +338,10 @@ TextureImporter:
       name: House-kitchen-Sheet2_7
       rect:
         serializedVersion: 2
-        x: 100
+        x: 96
         y: 192
-        width: 24
-        height: 24
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,10 +360,10 @@ TextureImporter:
       name: House-kitchen-Sheet2_8
       rect:
         serializedVersion: 2
-        x: 4
+        x: 0
         y: 160
-        width: 24
-        height: 17
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,10 +382,10 @@ TextureImporter:
       name: House-kitchen-Sheet2_9
       rect:
         serializedVersion: 2
-        x: 35
+        x: 32
         y: 160
-        width: 25
-        height: 17
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,10 +404,10 @@ TextureImporter:
       name: House-kitchen-Sheet2_10
       rect:
         serializedVersion: 2
-        x: 36
-        y: 114
-        width: 24
-        height: 46
+        x: 64
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,10 +426,10 @@ TextureImporter:
       name: House-kitchen-Sheet2_11
       rect:
         serializedVersion: 2
-        x: 68
+        x: 96
         y: 160
-        width: 24
-        height: 25
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -448,10 +448,10 @@ TextureImporter:
       name: House-kitchen-Sheet2_12
       rect:
         serializedVersion: 2
-        x: 100
-        y: 160
-        width: 24
-        height: 26
+        x: 0
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,10 +470,10 @@ TextureImporter:
       name: House-kitchen-Sheet2_13
       rect:
         serializedVersion: 2
-        x: 4
+        x: 32
         y: 128
-        width: 24
-        height: 25
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -492,10 +492,10 @@ TextureImporter:
       name: House-kitchen-Sheet2_14
       rect:
         serializedVersion: 2
-        x: 68
+        x: 64
         y: 128
-        width: 24
-        height: 27
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -514,10 +514,10 @@ TextureImporter:
       name: House-kitchen-Sheet2_15
       rect:
         serializedVersion: 2
-        x: 100
+        x: 96
         y: 128
-        width: 24
-        height: 27
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,10 +536,10 @@ TextureImporter:
       name: House-kitchen-Sheet2_16
       rect:
         serializedVersion: 2
-        x: 4
+        x: 0
         y: 96
-        width: 24
-        height: 18
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -558,10 +558,10 @@ TextureImporter:
       name: House-kitchen-Sheet2_17
       rect:
         serializedVersion: 2
-        x: 36
+        x: 32
         y: 96
-        width: 24
-        height: 19
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -580,10 +580,10 @@ TextureImporter:
       name: House-kitchen-Sheet2_18
       rect:
         serializedVersion: 2
-        x: 68
+        x: 64
         y: 96
-        width: 24
-        height: 25
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -602,10 +602,10 @@ TextureImporter:
       name: House-kitchen-Sheet2_19
       rect:
         serializedVersion: 2
-        x: 100
+        x: 96
         y: 96
-        width: 24
-        height: 29
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -624,10 +624,10 @@ TextureImporter:
       name: House-kitchen-Sheet2_20
       rect:
         serializedVersion: 2
-        x: 4
+        x: 0
         y: 64
-        width: 24
-        height: 28
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -646,10 +646,10 @@ TextureImporter:
       name: House-kitchen-Sheet2_21
       rect:
         serializedVersion: 2
-        x: 36
+        x: 32
         y: 64
-        width: 24
-        height: 17
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -668,10 +668,10 @@ TextureImporter:
       name: House-kitchen-Sheet2_22
       rect:
         serializedVersion: 2
-        x: 63
-        y: 44
-        width: 65
-        height: 21
+        x: 64
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -690,10 +690,10 @@ TextureImporter:
       name: House-kitchen-Sheet2_23
       rect:
         serializedVersion: 2
-        x: 68
+        x: 96
         y: 64
-        width: 24
-        height: 17
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -712,10 +712,10 @@ TextureImporter:
       name: House-kitchen-Sheet2_24
       rect:
         serializedVersion: 2
-        x: 100
-        y: 64
-        width: 24
-        height: 28
+        x: 0
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -734,10 +734,10 @@ TextureImporter:
       name: House-kitchen-Sheet2_25
       rect:
         serializedVersion: 2
-        x: 5
-        y: 35
-        width: 23
-        height: 14
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -756,10 +756,10 @@ TextureImporter:
       name: House-kitchen-Sheet2_26
       rect:
         serializedVersion: 2
-        x: 38
-        y: 35
-        width: 21
-        height: 19
+        x: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -778,10 +778,10 @@ TextureImporter:
       name: House-kitchen-Sheet2_27
       rect:
         serializedVersion: 2
-        x: 0
-        y: 12
-        width: 33
-        height: 17
+        x: 96
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -796,11 +796,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: House-kitchen-Sheet2_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93da1fe3093b1f44e89a2a82459dbcdf
+      internalID: 1273231783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 44f3f348e2c3afb4cbe016985d9dbd3c
     internalID: 0
     vertices: []
     indices: 
@@ -831,6 +853,7 @@ TextureImporter:
       House-kitchen-Sheet2_25: 6173172961845089172
       House-kitchen-Sheet2_26: -3219656155824447120
       House-kitchen-Sheet2_27: 2781369241144863657
+      House-kitchen-Sheet2_28: 1273231783
       House-kitchen-Sheet2_3: 5963801754090092728
       House-kitchen-Sheet2_4: -1330533794405910075
       House-kitchen-Sheet2_5: 2060944541107482590

@@ -100,7 +100,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -169,7 +169,7 @@ TextureImporter:
         x: 0
         y: 160
         width: 32
-        height: 25
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,10 +188,10 @@ TextureImporter:
       name: House-bedroom-Sheet_1
       rect:
         serializedVersion: 2
-        x: 36
+        x: 32
         y: 160
-        width: 56
-        height: 25
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,10 +210,10 @@ TextureImporter:
       name: House-bedroom-Sheet_2
       rect:
         serializedVersion: 2
-        x: 95
+        x: 64
         y: 160
-        width: 33
-        height: 25
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,10 +232,10 @@ TextureImporter:
       name: House-bedroom-Sheet_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
+        x: 96
+        y: 160
         width: 32
-        height: 25
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,10 +254,10 @@ TextureImporter:
       name: House-bedroom-Sheet_4
       rect:
         serializedVersion: 2
-        x: 36
+        x: 0
         y: 128
-        width: 56
-        height: 25
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,8 +276,8 @@ TextureImporter:
       name: House-bedroom-Sheet_5
       rect:
         serializedVersion: 2
-        x: 64
-        y: 96
+        x: 32
+        y: 128
         width: 32
         height: 32
       alignment: 0
@@ -298,10 +298,10 @@ TextureImporter:
       name: House-bedroom-Sheet_6
       rect:
         serializedVersion: 2
-        x: 95
+        x: 64
         y: 128
-        width: 33
-        height: 25
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,8 +321,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 96
-        width: 17
+        y: 128
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -342,10 +342,10 @@ TextureImporter:
       name: House-bedroom-Sheet_8
       rect:
         serializedVersion: 2
-        x: 2
-        y: 103
-        width: 28
-        height: 20
+        x: 0
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -364,10 +364,10 @@ TextureImporter:
       name: House-bedroom-Sheet_9
       rect:
         serializedVersion: 2
-        x: 34
-        y: 107
-        width: 28
-        height: 16
+        x: 32
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,8 +386,8 @@ TextureImporter:
       name: House-bedroom-Sheet_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
+        x: 64
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -408,9 +408,9 @@ TextureImporter:
       name: House-bedroom-Sheet_11
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
-        width: 17
+        x: 96
+        y: 96
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -430,7 +430,7 @@ TextureImporter:
       name: House-bedroom-Sheet_12
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 64
         width: 32
         height: 32
@@ -452,7 +452,7 @@ TextureImporter:
       name: House-bedroom-Sheet_13
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 64
         width: 32
         height: 32
@@ -474,10 +474,10 @@ TextureImporter:
       name: House-bedroom-Sheet_14
       rect:
         serializedVersion: 2
-        x: 3
-        y: 35
-        width: 26
-        height: 26
+        x: 64
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -496,10 +496,10 @@ TextureImporter:
       name: House-bedroom-Sheet_15
       rect:
         serializedVersion: 2
-        x: 35
-        y: 35
-        width: 26
-        height: 26
+        x: 96
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -518,10 +518,10 @@ TextureImporter:
       name: House-bedroom-Sheet_16
       rect:
         serializedVersion: 2
-        x: 67
-        y: 35
-        width: 26
-        height: 26
+        x: 0
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -540,10 +540,10 @@ TextureImporter:
       name: House-bedroom-Sheet_17
       rect:
         serializedVersion: 2
-        x: 99
-        y: 35
-        width: 26
-        height: 26
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -562,10 +562,10 @@ TextureImporter:
       name: House-bedroom-Sheet_18
       rect:
         serializedVersion: 2
-        x: 3
-        y: 3
-        width: 26
-        height: 26
+        x: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -584,10 +584,10 @@ TextureImporter:
       name: House-bedroom-Sheet_19
       rect:
         serializedVersion: 2
-        x: 35
-        y: 3
-        width: 26
-        height: 26
+        x: 96
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -606,10 +606,10 @@ TextureImporter:
       name: House-bedroom-Sheet_20
       rect:
         serializedVersion: 2
-        x: 67
-        y: 3
-        width: 26
-        height: 26
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -628,10 +628,10 @@ TextureImporter:
       name: House-bedroom-Sheet_21
       rect:
         serializedVersion: 2
-        x: 99
-        y: 3
-        width: 26
-        height: 26
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -646,11 +646,55 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: House-bedroom-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7b5c1d4bdae55408eef9e93fca1e1d
+      internalID: -1856009851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House-bedroom-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427b99b2d3dc800409b1ecc9dbcb5aa4
+      internalID: -728039364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8ea21113880d89e4cb417f8baaccd89e
     internalID: 0
     vertices: []
     indices: 
@@ -675,6 +719,8 @@ TextureImporter:
       House-bedroom-Sheet_2: 1812495129778828215
       House-bedroom-Sheet_20: -5527606736649957310
       House-bedroom-Sheet_21: -849107227526158173
+      House-bedroom-Sheet_22: -1856009851
+      House-bedroom-Sheet_23: -728039364
       House-bedroom-Sheet_3: -6098097509331542829
       House-bedroom-Sheet_4: -4991736197272115488
       House-bedroom-Sheet_5: -5779632470054983541
