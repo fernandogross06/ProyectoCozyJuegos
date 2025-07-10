@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      flecha_puntero_0: 9167406254332114423
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
